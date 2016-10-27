@@ -7,7 +7,7 @@
                     
                 <h3>Pick Your Schedule </h3>          
         </div>
-
+        <%--EXIT BUTTON --%>
         <div class="col-md-4">
 
             <div class="col-md-4 col-md-offset-4">
@@ -30,7 +30,7 @@
         <div class="panel-body">
             <div class="col-xs-6">                    
     <div class="form-group">
-    <asp:Label runat="server"  CssClass="col-md-3 control-label" Text="Studnet ID" ></asp:Label>
+    <asp:Label runat="server"  CssClass="col-md-3 control-label" Text="Student ID" ></asp:Label>
     <div class="col-md-10">
     <asp:TextBox ID="txtID" runat="server" CssClass="form-control" placeholder="ID"></asp:TextBox>    
     </div>
